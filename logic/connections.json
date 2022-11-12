@@ -1,0 +1,18 @@
+{
+  "managedApiConnections": {
+    "azureblob_1": {
+      "api": {
+        "id": "/subscriptions/1ce0ba3c-313b-4126-8228-435731f92940/providers/Microsoft.Web/locations/westeurope/managedApis/azureblob"
+      },
+      "connection": {
+        "id": "/subscriptions/1ce0ba3c-313b-4126-8228-435731f92940/resourceGroups/AppDev-RG/providers/Microsoft.Web/connections/azureblob-3"
+      },
+      "connectionRuntimeUrl": "https://b9be4f89f149a173.10.common.logic-westeurope.azure-apihub.net/apim/azureblob/de53375d10154754b3461e139dd5f41d/",
+      "authentication": {
+        "type": "Raw",
+        "scheme": "Key",
+        "parameter": "@appsetting('azureblob_1-connectionKey')"
+      }
+    }
+  }
+}
